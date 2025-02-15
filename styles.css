@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-* {
+
+body {
   background-color: #1c1c1c;
-  color: white;
+  --line-color: #565664;
 }
 
 .hero-section {
-  background-color: var(background-color);
   font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
   width: 100%;
-  height: 1000px;
+  height: 800px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -22,10 +23,15 @@
   text-align: center;
   position: relative;
 }
+
+.text-container {
+  text-align: center;
+  position: relative;
+}
 .text {
-  font-size: 6.9rem;
-  font-weight: bolder;
-  color: var(color);
+  font-size: 7.9rem;
+  font-weight: bold;
+  color: white;
   letter-spacing: -0.01em;
   position: relative;
   overflow: hidden;
@@ -37,6 +43,33 @@
 .circular-layout {
   height: 600px;
 }
+
+.circular-item {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.circular-item:nth-child(1) {
+  top: 30%;
+  left: 30.6%;
+}
+
+.circular-item:nth-child(2) {
+  top: 10%;
+  left: 80%;
+}
+
+.circular-item:nth-child(3) {
+  top: 80%;
+  left: 30%;
+}
+.circular-item:nth-child(4) {
+  top: 60%;
+  left: 78%;
+}
+
 .diagonal-line {
   position: absolute;
   width: 408px;
