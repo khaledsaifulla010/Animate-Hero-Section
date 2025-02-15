@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.hero-section {
+  background-color: var(background-color);
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  z-index: 20;
+  text-align: center;
+  position: relative;
+}
